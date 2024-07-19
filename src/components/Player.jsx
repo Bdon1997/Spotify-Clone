@@ -27,7 +27,17 @@ const Player = () => {
                     <p>4:00</p>
                 </div>
             </div>
-            <div className='hidden lg:flex items-center'>
+            <div className='hidden lg:flex items-center gap-2 opacity-75'>
+                <img className="w-4" src={assets.play_icon} alt="play Icon" />
+                <img className="w-4" src={assets.mic_icon} alt="mic Icon" />
+                <img className="w-4" src={assets.queue_icon} alt="queue Icon" />
+                <img className="w-4" src={assets.speaker_icon} alt="speaker Icon" />
+                <img className="w-4" src={assets.volume_icon} alt="volume Icon" />
+                <div className='w-20 bg-slate-50 h-1 rounded'>
+                    
+                </div>
+                <img className="w-4" src={assets.mini_player_icon} alt="mini player Icon" />
+                <img className="w-4" src={assets.zoom_icon} alt="zoom Icon" />
 
             </div>
         </div>

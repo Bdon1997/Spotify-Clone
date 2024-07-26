@@ -7,11 +7,11 @@ const Display = () => {
             <div className='bg-[#121212] h=[15%] rounded flex flex-col justify-around'>
                 <div className='flex items-center gap-3 pl-8 cursor-pointer mb-3'>
                     <img className='w-8 ' src={assets.home_icon} alt="Home Icon" />
-                    <p className='font-bold'>Home</p>
+                    <p className='font-bold hover:text-green-400'>Home</p>
                 </div>
                 <div className='flex items-center gap-3 pl-8 cursor-pointer mb-3'>
                     <img className='w-8' src={assets.search_icon} alt="Search Icon" />
-                    <p className='font-bold'>Search</p>
+                    <p className='font-bold hover:text-green-400'>Search</p>
                 </div>
             </div>
             <div className='bg-[#121212] h=[85%] rounded'>
@@ -22,7 +22,7 @@ const Display = () => {
                     </div>
                     <div className='flex items-end gap-3'>
                         <img className='w-5' src={assets.arrow_icon} alt="Arrow Icon" />
-                        <img className='w-5' src={assets.plus_icon} alt="Arrow Icon" />
+                        <img className='w-5' src={assets.plus_icon} alt="Plus Icon" />
 
                     </div>
                 </div>

@@ -79,14 +79,14 @@ export const albumsData = [
     },
     {   
         id:1,
-        name: "Top 50 India",
+        name: "Top 50 UK",
         image: img9,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#22543d"
     },
     {   
         id:2,
-        name: "Trending India",
+        name: "Trending USA",
         image: img10,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#742a2a"
@@ -117,15 +117,15 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
+        name: "DS4EVER",
         image: img1,
         file:song1,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        duration:"2:15"
     },
     {
         id:1,
-        name: "Song Two",
+        name: "So Much Fun",
         image: img2,
         file:song2,
         desc:"Put a smile on your face with these happy tunes",
@@ -133,7 +133,7 @@ export const songsData = [
     },
     {
         id:2,
-        name: "Song Three",
+        name: "Scorpion",
         image: img3,
         file:song3,
         desc:"Put a smile on your face with these happy tunes",
@@ -141,7 +141,7 @@ export const songsData = [
     },
     {
         id:3,
-        name: "Song Four",
+        name: "Calvin Harris",
         image: img4,
         file:song1,
         desc:"Put a smile on your face with these happy tunes",
@@ -149,7 +149,7 @@ export const songsData = [
     },
     {
         id:4,
-        name: "Song Five",
+        name: "Chill",
         image: img5,
         file:song2,
         desc:"Put a smile on your face with these happy tunes",
@@ -157,7 +157,7 @@ export const songsData = [
     },
     {
         id:5,
-        name: "Song Six",
+        name: "Lovers",
         image: img14    ,
         file:song3,
         desc:"Put a smile on your face with these happy tunes",
@@ -165,7 +165,7 @@ export const songsData = [
     },
     {
         id:6,
-        name: "Song Seven",
+        name: "Konnichiwa",
         image: img7,
         file:song1,
         desc:"Put a smile on your face with these happy tunes",
@@ -173,7 +173,7 @@ export const songsData = [
     },
     {
         id:7,
-        name: "Song Eight",
+        name: "Because the Internaet",
         image: img12,
         file:song2,
         desc:"Put a smile on your face with these happy tunes",

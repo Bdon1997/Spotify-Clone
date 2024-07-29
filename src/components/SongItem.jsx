@@ -11,4 +11,4 @@ const SongItem = ({image,name,desc,id}) => {
 }
 
 
-export default AlbumItem
+export default SongItem

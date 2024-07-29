@@ -7,7 +7,6 @@ const AlbumDisplay = () => {
 
     const {id} = useParams();
     const albumData = albumsData[id];
-    console.log(albumData);
     
     return (
         <>

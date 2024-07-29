@@ -82,14 +82,14 @@ export const albumsData = [
         name: "Top 50 UK",
         image: img9,
         desc:"Your weekly update of the most played tracks",
-        bgColor:"#22543d"
+        bgColor: "#f03a3a" 
     },
     {   
         id:2,
         name: "Trending USA",
         image: img10,
         desc:"Your weekly update of the most played tracks",
-        bgColor:"#742a2a"
+        bgColor:"#ed4207"
     },
     {   
         id:3,
@@ -110,7 +110,7 @@ export const albumsData = [
         name: "Happy Favorites",
         image: img15,
         desc:"Your weekly update of the most played tracks",
-        bgColor:"#744210"
+        bgColor:"#edc707"
     }
 ]
 

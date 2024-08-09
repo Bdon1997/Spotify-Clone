@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import {Route, Routes, useLocation} from 'react-router-dom'
 import DisplayHome from './DisplayHome'
 import AlbumDisplay from './AlbumDisplay'
-import { albumsData } from '../assets/assets'
+import { albumsData } from './assets/assets'
 
 const Display = () => {
 

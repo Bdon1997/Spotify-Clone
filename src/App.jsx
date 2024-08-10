@@ -3,14 +3,12 @@ import Sidebar from './components/Sidebar'
 import Player from "./components/Player";
 import Display from "./components/Display";
 import { songsData } from "./components/assets/assets";
-import MusicPlayer from "./components/MusicPlayer";
-
-
-
+import { MusicContext } from "./context/MusicContext";
 
 
 const App = () => {
 
+   const {audioRef,track} = useContext(MusicContext);
 
   return (
     <div className='h-screen bg-black '>
@@ -19,7 +17,8 @@ const App = () => {
         <Display />
       </div>
       <Player/>
-      </div>
+      <audio ref={audioRef} src={track.file} preload="auto"/>
+    </div>
   )
 }
 

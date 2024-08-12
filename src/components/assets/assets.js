@@ -38,9 +38,19 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
-import song1 from  './song1.mp3'
-import song2 from  './song2.mp3'
-import song3 from  './song3.mp3'
+import song1 from  './Music/song1.mp3'
+import song2 from  './Music/song2.mp3'
+import song3 from  './Music/song3.mp3'
+import song4 from './Music/Calvin_Harris.mp3'
+import song5 from './Music/Drake_Mob_Ties.mp3'
+import song6 from './Music/Duke_Dumont_I_got_u.mp3'
+import song7 from './Music/Gunna_private_island.mp3'
+import song8 from './Music/Skepta_Man.mp3'
+import song9 from './Music/Taylor_Swift_Lover.mp3'
+import song10 from './Music/Young_Thug.mp3'
+import song11 from './Music/Childish_Gambino.mp3'
+
+
 
 export const assets = {
     bell_icon,
@@ -119,64 +129,64 @@ export const songsData = [
         id:0,
         name: "DS4EVER",
         image: img1,
-        file: song1,
-        desc:"Put a smile on your face with these happy tunes",
+        file: song7,
+        desc:"Private Island",
         duration:"2:15"
     },
     {
         id:1,
         name: "So Much Fun",
         image: img2,
-        file: song2,
-        desc:"Put a smile on your face with these happy tunes",
+        file: song10,
+        desc:"What's the Move",
         duration:"2:20"
     },
     {
         id:2,
         name: "Scorpion",
         image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        file:song5,
+        desc:"Mob Ties",
         duration:"2:32"
     },
     {
         id:3,
         name: "Calvin Harris",
         image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        file:song4,
+        desc:"Thinking about you",
         duration:"2:50"
     },
     {
         id:4,
         name: "Chill",
         image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        file:song6,
+        desc:"I Got You",
         duration:"3:10"
     },
     {
         id:5,
         name: "Lovers",
         image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        file:song9,
+        desc:"Lover",
         duration:"2:45"
     },
     {
         id:6,
         name: "Konnichiwa",
         image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        file:song8,
+        desc:"Man",
         duration:"2:18"
     },
     {
         id:7,
         name: "Because the Internet",
         image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        file:song11,
+        desc:"3005",
         duration:"2:35"
     }
 ]

@@ -13,7 +13,7 @@ const Player = (props) => {
                 <img className="w-12" src={track.image} alt="" />
                 <div>
                     <p>{track.name}</p>
-                    <p>{track.desc.slice(0,12)}</p>
+                    <p>{track.desc.slice(0,30)}</p>
                 </div>
             </div>
             <div className='flex flex-col items-center gap-1 m-auto'>
@@ -34,7 +34,7 @@ const Player = (props) => {
                     <div className="flex items-center gap-5">
                         <p>{Time.currentTime.minute}:{Time.currentTime.second}</p>
                         <div ref={seekBg} onClick={seekSong} className=' w-[60vw] max-w-[500px] bg-gray-300 rounded-full cursor-pointer'>
-                            <hr ref={seekBar} className='h-1 border-none w-5 bg-green-800 rounded-full'/>
+                            <hr ref={seekBar} className='h-1 border-none w-0 bg-green-800 rounded-full'/>
                         </div>
                         <p>{Time.totalTime.minute}:{Time.totalTime.second}</p>
                     </div>
